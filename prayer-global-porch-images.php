@@ -21,3 +21,10 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
+
+function prayer_global_image_library_url() {
+    return trailingslashit( plugin_dir_url( __FILE__ ) . 'images/' );
+}
+function prayer_global_image_library_path() {
+    return trailingslashit( plugin_dir_path( __FILE__ ) . 'images/' );
+}
