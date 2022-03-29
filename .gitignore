@@ -1,3 +1,4 @@
 vendor/*
 composer.lock
 scripts/images/*
+scripts/connect_params.json
